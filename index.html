@@ -30,7 +30,7 @@
       $(function() {
          $.getJSON("json/info_box.json", function(data){
             var template = $('#items-template').html();
-            //var info = dust.to_html(template, data);
+            //var info = dust.to_html(template, data);  (\dust.compile();dust.loadSource();dust.render()/)
             $('.infobox-body-list').html(/*info*/);
          }); 
       });
