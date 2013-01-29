@@ -1,0 +1,152 @@
+html{
+	font-family: Arial, Tahoma;
+}
+body{
+	margin: 0;
+}
+.infobox-body{
+	width: 324px;
+	font-size: 12px;
+	position: relative;
+	height: 337px;
+	padding: 1px;
+}
+.infobox-cont-note{
+	font-size: 11px;
+    line-height: 12px;
+    color: #9A9B9C;
+}
+.infobox-body_aligner{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.plate_default{
+	background: url(../images/comp_plate_graybasic.png) no-repeat top left;
+}
+.infobox-body-list{
+	height: 258px;
+}
+.infobox-body__item{
+	position: absolute;
+	display: none;
+	color: #3B3A36;
+	z-index: 1;
+}
+.infobox-body__item:first-child{
+	display: block;
+	z-index: 3;
+}
+.infobox-body-image{
+	width: 312px;
+	height: 200px;
+	/* Для хороших браузеров */
+	-moz-border-radius: 8px; /* Firefox */
+	-webkit-border-radius: 8px; /* Safari, Chrome */
+	-khtml-border-radius: 8px; /* KHTML */
+	border-radius: 8px; /* CSS3 */
+	/* Для плохих IE */
+	behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+.infobox-cont{
+	padding: 7px 10px 0;
+    width: 285px;
+    height: 265px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.infobox-cont-header{
+	color: #F87222;
+	font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    width: 290px;
+}
+.infobox-cont-body{
+	font-size: 11px;
+    line-height: 12px;
+    color: #3B3A36;
+    margin-bottom: 10px;
+}
+.infobox-cont-details{
+	font-size: 11px;
+	color: #F87222;
+	outline: none;
+	position: relative;
+	bottom: 0;
+}
+.infobox-cont-details:hover{
+	color: #4F3726;
+}
+.infobox-action{
+	position: absolute;
+	bottom: 0;
+	padding: 0 10px;
+    width: 290px;
+    margin-bottom: 28px;
+}
+.infobox-action-btn{
+	display: inline-block;
+	text-align: center;
+	color: #BCBCBC;
+	font-weight: bold;
+	height: 21px;
+	cursor: pointer;
+}
+.infobox-action-btn:hover{
+	color: #FFF;
+	text-shadow: 0 1px 1px #000;
+	background-position: bottom;
+}
+.button_prev{
+	background: url(../images/button_bg_white_left_sprite.png) no-repeat top left;
+    padding: 5px 2px 0 23px;
+    width: 43px;
+    float: left;
+    margin-right: 4px;
+}
+.button_prev:before{
+	content: url(../images/btn_ic_gray_left.png) ;
+	float: left;
+    height: 10px;
+    margin-left: -18px;
+    margin-top: 2px;
+    width: 12px;
+}
+.button_next{
+	background: url(../images/button_bg_white_right_sprite.png) no-repeat top left;
+    padding: 5px 23px 0 2px;
+    width: 43px;
+    float: left;
+}
+.button_next:after{
+	content: url(../images/btn_ic_gray_right.png) ;
+	float: right;
+    height: 10px;
+    margin-right: -18px;
+    margin-top: 2px;
+    width: 12px;
+}
+.button_find{
+	float: right;
+	background: url(../images/button_bg_white_long_sprite.png) repeat-x top left;
+    width: 86px;
+    padding: 5px 23px 0 8px;
+    text-align: left;
+	color: #F87222;
+}
+.button_find:after{
+	content: url(../images/find.png) ;
+	float: right;
+    height: 10px;
+    margin-right: -18px;
+    margin-top: 2px;
+    width: 12px;
+}
+.infobox-txtwrapper{
+	overflow: hidden;
+    margin-bottom: 5px;
+    height: 46px;
+    margin-top: 200px;
+
+}
